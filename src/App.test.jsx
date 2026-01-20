@@ -5,3 +5,4 @@ test("renders CI/CD Demo title", () => {
   render(<App />);
   expect(screen.getByText("CI/CD Demo")).toBeInTheDocument();
 });
+expect(screen.getByText("CI/CD DEMO")).toBeInTheDocument();
